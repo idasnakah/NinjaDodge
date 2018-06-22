@@ -1,0 +1,18 @@
+.ninja{
+    position: relative;
+    top: 450px;
+    left: 70px;
+}
+
+.gameArea{
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+
+.button{
+  position: relative;
+  top: 500px;
+  left: 200px;
+
+}
