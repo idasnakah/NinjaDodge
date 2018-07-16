@@ -1,18 +1,79 @@
+.block{
+  position: absolute;
+  top: 460px;
+  left: 450px;
+  width: 40px;
+  height: 40px;
+  z-index: -1;
+
+}
+.block1{
+  position: absolute;
+  top: 440px;
+  left: 450px;
+  width: 40px;
+  height: 60px;
+  z-index: -1;
+}
+.block2{
+  position: absolute;
+  top: 460px;
+  left: 480px;
+  width: 50px;
+  height: 40px;
+  z-index: -1;
+}
 .ninja{
-    position: relative;
+    position: absolute;
+    width: 50px;
+    height: 50px;
     top: 450px;
-    left: 70px;
+    left: 50px;
+}
+.gif {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 250px;
+  left: 40px;
 }
 
 .gameArea{
+  position: relative;
   height: 100vh;
   width: 100vw;
-  background-color: white;
+  background-color: grey;
 }
 
-.button{
-  position: relative;
-  top: 500px;
-  left: 200px;
+button {
+  position: absolute;
+  top: 610px;
+  left: 50px;
+  right: 50px;
+  display: none;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: black;
+    padding: 14px 20px;
 
+    border: 2px solid SlateBlue;
+    /*cursor : üzerine gelindiğinde simge ile gösterir*/
+    cursor: pointer;
+    /*sayfanın yüzde kaçında olacağı*/
+
+    font-family: arial;
+    tex
+}
+button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  opacity: 0.8%;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: SlateBlue;
+}
+h1{
+  width: 100%;
+  color: white;
+  top: 100px;
+  position: absolute;
 }
